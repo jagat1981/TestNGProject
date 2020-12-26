@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="RegressionSuit" thread-count="3">
+
+<test name="ChromeTest">
+ 
+  <group name="a" depends-on="aa">
+  	<run>
+  		<include name="sanity">  </include>
+  	</run>
+  </group>
+  <classes>
+    <class name="MavenTestNGPackage.TestngGroup">
+  </class>
+  </classes>
+  </test>
+
+</suite> <!-- RegressionSuit -->
