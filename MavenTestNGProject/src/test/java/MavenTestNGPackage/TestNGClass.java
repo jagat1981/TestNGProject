@@ -15,7 +15,7 @@ public class TestNGClass {
 	WebDriver driver;
 	JavascriptExecutor jsDriver;
 	String projectpath = System.getProperty("user.dir");
-	 
+	// new comment added
 	@BeforeMethod
 	@Parameters("browser")
 	public void setup(String browsername) throws Exception
